@@ -1,0 +1,7 @@
+name,method,chunk_size,overlap,threshold,query_count,precision_at_5,recall_at_5,hit_rate,unanswerable_count,abstention_rate,decision
+baseline,tfidf,1200,200,0.08,140,0.015100630338184273,0.1384236005455901,0.18571428571428572,22,0.13636363636363635,"REVIEW: compare recall, precision and abstention guardrails"
+iteration_1_smaller_chunks,tfidf,800,150,0.08,140,0.012069739506778651,0.0898196299751583,0.12857142857142856,22,0.045454545454545456,"REVIEW: compare recall, precision and abstention guardrails"
+iteration_2_larger_chunks,tfidf,1800,250,0.08,140,0.018301896230380206,0.25158892666035093,0.2857142857142857,22,0.36363636363636365,"REVIEW: compare recall, precision and abstention guardrails"
+iteration_3_more_overlap,tfidf,1200,400,0.08,140,0.011571181528986082,0.12142522539238279,0.17857142857142858,22,0.13636363636363635,"REVIEW: compare recall, precision and abstention guardrails"
+iteration_4_keyword_baseline,keyword,1200,200,0.08,140,0.011822381251939788,0.11533531755773657,0.17857142857142858,22,0.0,"REVIEW: compare recall, precision and abstention guardrails"
+iteration_5_higher_threshold,tfidf,1200,200,0.15,140,0.008840797564679079,0.05704209002986906,0.09285714285714286,22,0.9090909090909091,"REVIEW: compare recall, precision and abstention guardrails"

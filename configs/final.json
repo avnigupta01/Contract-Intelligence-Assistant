@@ -1,0 +1,8 @@
+{
+  "method": "tfidf",
+  "chunk_size": 1200,
+  "chunk_overlap": 200,
+  "top_k": 5,
+  "min_score": 0.08,
+  "note": "Starting configuration only. Run the training-only improvement loop and select based on measured training metrics; do not tune on test results."
+}
